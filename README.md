@@ -12,6 +12,7 @@ This repository provides scripts and setup instructions to enable online multipl
 1. Run `./virtual-mic.sh`
 1. Launch UltraStar Deluxe
 1. Switch to the _Record_ tab and assign virtual _KaraokeMic1_ to Player 1 and virtual _KaraokeMic2_ to Player 2
+    ![alt text](docs/ultrastardx-record-settings.png "UltraStar Deluxe Record Settings")
 1. Open `pavucontrol` and set output of UltraStar Deluxe to _KaraokeOutput_
 1. Share `KaraokeOutputShare` with audience
 1. Make output locally available with `pactl load-module module-loopback` and select _KaraokeOutput_ for the new loopback device in the playback tab of `pavucontrol`
@@ -21,6 +22,8 @@ This repository provides scripts and setup instructions to enable online multipl
 1. Connect to the server URL provided by your host
 1. Select a username of your choice and enter server password if applicable
 1. Switch to the channel of your UltraStar Deluxe player
+
+    ![alt text](docs/plumble-switch-channel.png "Plumble")
 1. Have fun playing!
 1. Don't forget to mute or switch channels after your performance
 
