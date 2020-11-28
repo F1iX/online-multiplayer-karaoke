@@ -19,6 +19,7 @@ This repository provides scripts and setup instructions to enable online multipl
 1. Create channels for each virtual microphone configured in `virtual-mic.sh`: _Player1_ and _Player2_
 
 ## Starting the system
+1. Add Mumble server URL to `virtual-mic.sh`
 1. Run `./virtual-mic.sh`
 1. Launch UltraStar Deluxe
 1. Switch to the _Record_ tab and assign virtual _KaraokeMic1_ to Player 1 and virtual _KaraokeMic2_ to Player 2
